@@ -1,0 +1,12 @@
+ul {
+    list-style-type: none;
+}
+
+li{
+    float: left;
+}
+
+#italic {
+    font-style: italic;
+    font-weight: 100;
+}
