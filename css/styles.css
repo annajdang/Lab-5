@@ -1,12 +1,53 @@
 ul {
     list-style-type: none;
+    width: 100%;
 }
 
 li{
     float: left;
+    background-color: black;
+    padding:20px;
 }
 
+a:link {
+    color:white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: cornflowerblue;
+}
+
+a:hover {
+    color:forestgreen;
+}
+
+a:active {
+    color: white;
+}
+
+h1 {
+    clear:both;
+    font-family: sans-serif;
+}
+h2{
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+img {
+    width: 100px;
+}
+
+table {
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+}
 #italic {
     font-style: italic;
     font-weight: 100;
+}
+
+tbody {
+    border: 2px;
 }
