@@ -21,7 +21,7 @@ li a {
 }
 
 a:link {
-    color:black;
+    color:white;
 }
 
 a:visited {
@@ -33,7 +33,7 @@ a:hover {
 }
 
 a:active {
-    color: white;
+    color:aqua;
 }
 
 h1 {
@@ -69,9 +69,6 @@ tr:nth-child(2n) {
 th {
     padding: 0 20px;
 }
-th:nth-child(5n+1) {
-    border-left: 2px solid #D3D3D3;
-}
 table {
     border-collapse: collapse;
     border-bottom: 2px solid #D3D3D3;
@@ -79,7 +76,18 @@ table {
 }
 img {
     vertical-align: bottom;
+    margin-bottom: 2px;
 }
 tr {
     vertical-align: bottom;
+}
+tr:nth-child(2) {
+    border-top:2px solid #D3D3D3;
+}
+.images {
+    border-left:0px solid #D3D3D3;
+    border-right:0px solid #D3D3D3;
+}
+table th {
+    border-left:2px solid #D3D3D3;
 }
