@@ -18,24 +18,26 @@
         <h1>Contact Form</h1>
         <form>
             <!--Name-->
+            <h3>Personal Information</h3>
             <p>First Name<input type="text" name="firstname" size="15" maxlength="30"/>
             Last Name<input type="text" name="lastname" size="15" maxlength="30"/></p>
-            
-            <!--Address-->
-            <p>Address<input type="text" name="address" size="15" maxlength="30"/></p>
-            <p>Street<input type="text" name="street" size="15" maxlength="30"/></p>
-            <p>City<input type="text" name="city" size="15" maxlength="30"/></p>
-            <p>State<input type="text" name="state" size="15" maxlength="30"/></p>
-            <p>Zip<input type="text" name="zip" size="15" maxlength="30"/></p>
-            
-            <!--Contact-->
-            <p>Phone Number<input type="text" name="phone" size="15" maxlength="30"/>
-            Email<input type="text" name="email" size="15" maxlength="30"/></p>
             
             <!--Gender-->
             <p>Gender
                 <input type="radio" name="gender" value="Male"/> Male
                 <input type="radio" name="gender" value="Female"/> Female </p>
+            
+            <!--Contact-->
+            <h3>Contact Information</h3>
+            <p>Phone Number<input type="text" name="phone" size="15" maxlength="30"/>
+            Email<input type="text" name="email" size="15" maxlength="30"/></p>
+            
+            <!--Address-->
+            <h3>Address Information</h3>
+            <p>Address<input type="text" name="address" size="15" maxlength="30"/>
+            City<input type="text" name="city" size="15" maxlength="30"/>
+            State<input type="text" name="state" size="15" maxlength="30"/>
+                Zip<input type="text" name="zip" size="15" maxlength="30"/></p>
             
             <!--Colors-->
             <h3>Five Favorite HydroFlask Colors </h3>
@@ -43,20 +45,21 @@
                 <input type="checkbox" name="color" value="black"/> Black
                 <input type="checkbox" name="color" value="graphite"/> Graphite
                 <input type="checkbox" name="color" value="kiwi"/> Kiwi
-                <input type="checkbox" name="color" value="pacific"/> Pacific
+                <input type="checkbox" name="color" value="pacific"/> Pacific 
                 <input type="checkbox" name="color" value="mint"/> Mint
                 <input type="checkbox" name="color" value="lava"/> Lava
                 <input type="checkbox" name="color" value="lemon"/> Lemon
-                <input type="checkbox" name="color" value="plum"/> Plum</p>
+                <input type="checkbox" name="color" value="plum"/> Plum
+                <input type="checkbox" name="color" value="blue"/> Blue</p>
             
             <!--Billing-->
             <h3>Billing Information</h3>
                 <img src="images/visa.png" alt="visa" class="cardimages"/>
                 <img src="images/mastercard.png" alt="master card" class="cardimages"/>
                 <img src="images/americanexpress.png" alt="american express" class="cardimages"/>
-                <p>Credit Card Number<input type="text" name="card" size="15" maxlength="30"/></p>
-                <p>Expiration Date<input type="text" name="date" size="15" maxlength="30"/></p>
-                <p>Security Code (CVV)<input type="text" name="cvv" size="15" maxlength="30"/></p>
+                <p>Credit Card Number<input type="text" name="card" size="15" maxlength="30"/>
+                Expiration Date<input type="date" name="date" size="15" maxlength="30"/>
+                Security Code (CVV)<input type="text" name="cvv" size="15" maxlength="30"/></p>
             
             <!--Submit-->
             <input type="submit" value="Submit">

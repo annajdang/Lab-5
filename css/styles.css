@@ -102,12 +102,23 @@ p {
 }
 h3{
     font-family: 'Source Sans Pro', sans-serif;
-    margin-bottom: -16px;
+    color:black;
+    background-color:lightgray;
+    width:100%;
+    padding:5px 30px;
+    margin-top: 30px;
+    margin-left: -20px;
 }
 input[type=text] {
     padding: 10px;
     margin: 0 10px ;
     box-sizing: border-box;
+}
+input[type=date] {
+    padding: 10px;
+    margin: 0 10px ;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 input[type=text]:focus {
     background-color: lightsteelblue;
@@ -125,5 +136,6 @@ input[type=submit] {
     padding: 15px 30px;
     border-radius: 10px;
 }
+
 
 /*end contact form*/
