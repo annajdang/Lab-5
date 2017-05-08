@@ -4,13 +4,63 @@
     <head>
         <title>Lab 5</title>
         <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
     </head>
     <body>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="index.html">Shop</a></li>
-            <li><a href="index.html">Customize</a></li>
-            <li><a href="index.html">Innovation</a></li>
-            <li><a href="index.html">Our Story</a></li>
+            <li><a href="#shop.html">Shop</a></li>
+            <li><a href="#customize.html">Customize</a></li>
+            <li><a href="#innovation.html">Innovation</a></li>
+            <li><a href="#ourstory.html">Our Story</a></li>
             <li><a href="contact.html">Contact Form</a></li>
         </ul>
+        <h1>Contact Form</h1>
+        <form>
+            <!--Name-->
+            <p>First Name<input type="text" name="firstname" size="15" maxlength="30"/></p>
+            <p>Last Name<input type="text" name="lastname" size="15" maxlength="30"/></p>
+            
+            <!--Address-->
+            <p>Address<input type="text" name="address" size="15" maxlength="30"/></p>
+            <p>Street<input type="text" name="street" size="15" maxlength="30"/></p>
+            <p>City<input type="text" name="city" size="15" maxlength="30"/></p>
+            <p>State<input type="text" name="state" size="15" maxlength="30"/></p>
+            <p>Zip<input type="text" name="zip" size="15" maxlength="30"/></p>
+            
+            <!--Contact-->
+            <p>Phone Number<input type="text" name="phone" size="15" maxlength="30"/></p>
+            <p>Email<input type="text" name="email" size="15" maxlength="30"/></p>
+            
+            <!--Gender-->
+            <p>Gender
+                <input type="radio" name="gender" value="Male"/> Male
+                <input type="radio" name="gender" value="Female"/> Female </p>
+            
+            <!--Colors-->
+            <p>Five Favorite HydroFlask Colors
+                <input type="checkbox" name="color" value="white"/> White
+                <input type="checkbox" name="color" value="black"/> Black
+                <input type="checkbox" name="color" value="graphite"/> Graphite
+                <input type="checkbox" name="color" value="kiwi"/> Kiwi
+                <input type="checkbox" name="color" value="pacific"/> Pacific
+                <input type="checkbox" name="color" value="mint"/> Mint
+                <input type="checkbox" name="color" value="lava"/> Lava
+                <input type="checkbox" name="color" value="lemon"/> Lemon
+                <input type="checkbox" name="color" value="plum"/> Plum</p>
+            
+            <!--Billing-->
+            <p>Billing Information</p>
+                <img src="images/visa.png" alt="visa" class="cardimages"/>
+                <img src="images/mastercard.png" alt="master card" class="cardimages"/>
+                <img src="images/americanexpress.png" alt="american express" class="cardimages"/>
+                <p>Credit Card Number<input type="text" name="card" size="15" maxlength="30"/></p>
+                <p>Expiration Date<input type="text" name="date" size="15" maxlength="30"/></p>
+                <p>Security Code (CVV)<input type="text" name="cvv" size="15" maxlength="30"/></p>
+            
+            <!--Submit-->
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+    
+</html>

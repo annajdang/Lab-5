@@ -19,6 +19,7 @@ li a {
     padding: 20px;
     text-decoration: none;
     background-color: black;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 a:link {
@@ -37,19 +38,22 @@ a:active {
     color:aqua;
 }
 /*end nav links*/
+
+/*index.html*/
 h1 {
     clear:both;
-    font-family: sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     margin-top: 100px;
+    font-weight: 600;
 }
 h2{
-    font-family: sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
     margin-top: -20px;
 }
-
+/*start table*/
 table {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     text-align: left;
 }
 #italic {
@@ -57,13 +61,11 @@ table {
     font-weight: 100;
     margin-top: -20px;
 }
-
 table td {
     padding:5px 20px;
     border-left: 2px solid #D3D3D3;
     border-right: 2px solid #D3D3D3;
 }
-
 tr:nth-child(2n) {
     background-color: antiquewhite;
 }
@@ -72,8 +74,7 @@ th {
 }
 table {
     border-collapse: collapse;
-    border-bottom: 2px solid #D3D3D3;
-    
+    border-bottom: 2px solid #D3D3D3;  
 }
 img {
     vertical-align: bottom;
@@ -92,3 +93,12 @@ tr:nth-child(2) {
 table th {
     border-left:2px solid #D3D3D3;
 }
+/*end table*/
+/*end index.html*/
+
+/*start contact form*/
+
+.cardimages {
+    width: 100px;
+}
+/*end contact form*/
