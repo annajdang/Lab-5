@@ -97,8 +97,11 @@ table th {
 /*end index.html*/
 
 /*start contact form*/
-
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
 .cardimages {
-    width: 100px;
+    width: 90px;
+    vertical-align: middle;
 }
 /*end contact form*/
