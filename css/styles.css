@@ -100,8 +100,30 @@ table th {
 p {
     font-family: 'Source Sans Pro', sans-serif;
 }
-.cardimages {
-    width: 90px;
-    vertical-align: middle;
+h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: -16px;
 }
+input[type=text] {
+    padding: 10px;
+    margin: 0 10px ;
+    box-sizing: border-box;
+}
+input[type=text]:focus {
+    background-color: lightsteelblue;
+}
+
+.cardimages {
+    width: 80px;
+    vertical-align: middle; 
+    margin-top: 10px;
+}
+input[type=submit] {
+    background-color:cornflowerblue;
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
 /*end contact form*/
