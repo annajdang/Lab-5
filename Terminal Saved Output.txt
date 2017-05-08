@@ -1,0 +1,419 @@
+Last login: Mon May  1 09:08:26 on console
+grc-mexico:~ ajdang$ cd desktop
+grc-mexico:desktop ajdang$ mkdir 338_02_L5_Dang
+grc-mexico:desktop ajdang$ cd 338_02_L5_Dang
+grc-mexico:338_02_L5_Dang ajdang$ mkdir images
+grc-mexico:338_02_L5_Dang ajdang$ mkdir css
+grc-mexico:338_02_L5_Dang ajdang$ touch index.html
+grc-mexico:338_02_L5_Dang ajdang$ cd css
+grc-mexico:css ajdang$ touch styles.css
+grc-mexico:css ajdang$ cd ..
+grc-mexico:338_02_L5_Dang ajdang$ git init
+Initialized empty Git repository in /Users/ajdang/Desktop/338_02_L5_Dang/.git/
+grc-mexico:338_02_L5_Dang ajdang$ git add -A
+grc-mexico:338_02_L5_Dang ajdang$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   .DS_Store
+	new file:   css/styles.css
+	new file:   images/LimeGreen.jpg
+	new file:   images/Logo.png
+	new file:   images/black.png
+	new file:   images/green.jpg
+	new file:   images/white.jpg
+	new file:   index.html
+
+grc-mexico:338_02_L5_Dang ajdang$ git remote add origin https://github.com/annajdang/Lab-5.git
+grc-mexico:338_02_L5_Dang ajdang$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/annajdang/Lab-5.git'
+grc-mexico:338_02_L5_Dang ajdang$ git remote add origin https://github.com/annajdang/Lab-5.git
+fatal: remote origin already exists.
+grc-mexico:338_02_L5_Dang ajdang$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/annajdang/Lab-5.git'
+grc-mexico:338_02_L5_Dang ajdang$ git commit -m "create files"
+[master (root-commit) 668a9ce] create files
+ 8 files changed, 12 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 css/styles.css
+ create mode 100755 images/LimeGreen.jpg
+ create mode 100644 images/Logo.png
+ create mode 100755 images/black.png
+ create mode 100755 images/green.jpg
+ create mode 100755 images/white.jpg
+ create mode 100644 index.html
+grc-mexico:338_02_L5_Dang ajdang$ git status
+On branch master
+nothing to commit, working tree clean
+grc-mexico:338_02_L5_Dang ajdang$ git remote add origin https://github.com/annajdang/Lab-5.git
+fatal: remote origin already exists.
+grc-mexico:338_02_L5_Dang ajdang$ git push -u origin master
+Counting objects: 12, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (12/12), 1.18 MiB | 1.81 MiB/s, done.
+Total 12 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/annajdang/Lab-5.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+grc-mexico:338_02_L5_Dang ajdang$ git add -A
+grc-mexico:338_02_L5_Dang ajdang$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   .DS_Store
+	modified:   css/styles.css
+	modified:   index.html
+
+grc-mexico:338_02_L5_Dang ajdang$ git commit -m "add text"
+[master 6d20fa2] add text
+ 3 files changed, 83 insertions(+)
+grc-mexico:338_02_L5_Dang ajdang$ git add -A
+grc-mexico:338_02_L5_Dang ajdang$ git commit -m "add style"
+[master 3bd47f4] add style
+ 2 files changed, 43 insertions(+)
+grc-mexico:338_02_L5_Dang ajdang$ git add -A
+grc-mexico:338_02_L5_Dang ajdang$ git commit -m "add more style"
+[master 38698a0] add more style
+ 2 files changed, 23 insertions(+), 18 deletions(-)
+grc-mexico:338_02_L5_Dang ajdang$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   css/styles.css
+	modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+grc-mexico:338_02_L5_Dang ajdang$ git add -A
+grc-mexico:338_02_L5_Dang ajdang$ git commit -m "add navbar"
+[master 7d411c9] add navbar
+ 2 files changed, 32 insertions(+), 7 deletions(-)
+grc-mexico:338_02_L5_Dang ajdang$ git add -A
+grc-mexico:338_02_L5_Dang ajdang$ git commit -m "add borders"
+[master d015875] add borders
+ 2 files changed, 18 insertions(+), 10 deletions(-)
+grc-mexico:338_02_L5_Dang ajdang$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+grc-mexico:338_02_L5_Dang ajdang$ git log
+commit d0158758e494035aec20bffc06cad581a55381f2
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 11:29:23 2017 -0700
+
+    add borders
+
+commit 7d411c950269d543cc3c81459a5f863b18ba8407
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 11:16:45 2017 -0700
+
+    add navbar
+
+commit 38698a0c958f4d482a435ac0bde84ff7d13384a0
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:53:44 2017 -0700
+
+    add more style
+
+commit 3bd47f442672174f05be7d3d191c9161c38a078e
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:21:05 2017 -0700
+
+    add style
+
+commit 6d20fa2b8b733062a58b976637a552a7857bf0da
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:07:55 2017 -0700
+
+:...skipping...
+commit d0158758e494035aec20bffc06cad581a55381f2
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 11:29:23 2017 -0700
+
+    add borders
+
+commit 7d411c950269d543cc3c81459a5f863b18ba8407
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 11:16:45 2017 -0700
+
+    add navbar
+
+commit 38698a0c958f4d482a435ac0bde84ff7d13384a0
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:53:44 2017 -0700
+
+    add more style
+
+commit 3bd47f442672174f05be7d3d191c9161c38a078e
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:21:05 2017 -0700
+
+    add style
+
+commit 6d20fa2b8b733062a58b976637a552a7857bf0da
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:07:55 2017 -0700
+
+    add text
+:...skipping...
+commit d0158758e494035aec20bffc06cad581a55381f2
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 11:29:23 2017 -0700
+
+    add borders
+
+commit 7d411c950269d543cc3c81459a5f863b18ba8407
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 11:16:45 2017 -0700
+
+    add navbar
+
+commit 38698a0c958f4d482a435ac0bde84ff7d13384a0
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:53:44 2017 -0700
+
+    add more style
+
+commit 3bd47f442672174f05be7d3d191c9161c38a078e
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:21:05 2017 -0700
+
+    add style
+
+commit 6d20fa2b8b733062a58b976637a552a7857bf0da
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:07:55 2017 -0700
+
+    add text
+
+:...skipping...
+commit d0158758e494035aec20bffc06cad581a55381f2
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 11:29:23 2017 -0700
+
+    add borders
+
+commit 7d411c950269d543cc3c81459a5f863b18ba8407
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 11:16:45 2017 -0700
+
+    add navbar
+
+commit 38698a0c958f4d482a435ac0bde84ff7d13384a0
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:53:44 2017 -0700
+
+    add more style
+
+commit 3bd47f442672174f05be7d3d191c9161c38a078e
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:21:05 2017 -0700
+
+    add style
+
+commit 6d20fa2b8b733062a58b976637a552a7857bf0da
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:07:55 2017 -0700
+
+    add text
+
+commit 668a9cef5ffd09e9c76f003454cf9481caad3148
+:...skipping...
+commit d0158758e494035aec20bffc06cad581a55381f2
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 11:29:23 2017 -0700
+
+    add borders
+
+commit 7d411c950269d543cc3c81459a5f863b18ba8407
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 11:16:45 2017 -0700
+
+    add navbar
+
+commit 38698a0c958f4d482a435ac0bde84ff7d13384a0
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:53:44 2017 -0700
+
+    add more style
+
+commit 3bd47f442672174f05be7d3d191c9161c38a078e
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:21:05 2017 -0700
+
+    add style
+
+commit 6d20fa2b8b733062a58b976637a552a7857bf0da
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:07:55 2017 -0700
+
+    add text
+
+commit 668a9cef5ffd09e9c76f003454cf9481caad3148
+Author: annajdang <ajdang@calpoly.edu>
+:...skipping...
+commit d0158758e494035aec20bffc06cad581a55381f2
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 11:29:23 2017 -0700
+
+    add borders
+
+commit 7d411c950269d543cc3c81459a5f863b18ba8407
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 11:16:45 2017 -0700
+
+    add navbar
+
+commit 38698a0c958f4d482a435ac0bde84ff7d13384a0
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:53:44 2017 -0700
+
+    add more style
+
+commit 3bd47f442672174f05be7d3d191c9161c38a078e
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:21:05 2017 -0700
+
+    add style
+
+commit 6d20fa2b8b733062a58b976637a552a7857bf0da
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:07:55 2017 -0700
+
+    add text
+
+commit 668a9cef5ffd09e9c76f003454cf9481caad3148
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 09:44:15 2017 -0700
+:...skipping...
+commit d0158758e494035aec20bffc06cad581a55381f2
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 11:29:23 2017 -0700
+
+    add borders
+
+commit 7d411c950269d543cc3c81459a5f863b18ba8407
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 11:16:45 2017 -0700
+
+    add navbar
+
+commit 38698a0c958f4d482a435ac0bde84ff7d13384a0
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:53:44 2017 -0700
+
+    add more style
+
+commit 3bd47f442672174f05be7d3d191c9161c38a078e
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:21:05 2017 -0700
+
+    add style
+
+commit 6d20fa2b8b733062a58b976637a552a7857bf0da
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:07:55 2017 -0700
+
+    add text
+
+commit 668a9cef5ffd09e9c76f003454cf9481caad3148
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 09:44:15 2017 -0700
+
+:...skipping...
+commit d0158758e494035aec20bffc06cad581a55381f2
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 11:29:23 2017 -0700
+
+    add borders
+
+commit 7d411c950269d543cc3c81459a5f863b18ba8407
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 11:16:45 2017 -0700
+
+    add navbar
+
+commit 38698a0c958f4d482a435ac0bde84ff7d13384a0
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:53:44 2017 -0700
+
+    add more style
+
+commit 3bd47f442672174f05be7d3d191c9161c38a078e
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:21:05 2017 -0700
+
+    add style
+
+commit 6d20fa2b8b733062a58b976637a552a7857bf0da
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:07:55 2017 -0700
+
+    add text
+
+commit 668a9cef5ffd09e9c76f003454cf9481caad3148
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 09:44:15 2017 -0700
+
+    create files
+:...skipping...
+commit d0158758e494035aec20bffc06cad581a55381f2
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 11:29:23 2017 -0700
+
+    add borders
+
+commit 7d411c950269d543cc3c81459a5f863b18ba8407
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 11:16:45 2017 -0700
+
+    add navbar
+
+commit 38698a0c958f4d482a435ac0bde84ff7d13384a0
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:53:44 2017 -0700
+
+    add more style
+
+commit 3bd47f442672174f05be7d3d191c9161c38a078e
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:21:05 2017 -0700
+
+    add style
+
+commit 6d20fa2b8b733062a58b976637a552a7857bf0da
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 10:07:55 2017 -0700
+
+    add text
+
+commit 668a9cef5ffd09e9c76f003454cf9481caad3148
+Author: annajdang <ajdang@calpoly.edu>
+Date:   Mon May 1 09:44:15 2017 -0700
+
+    create files
+~
+grc-mexico:338_02_L5_Dang ajdang$ git push
+Counting objects: 26, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (26/26), 3.41 KiB | 0 bytes/s, done.
+Total 26 (delta 9), reused 0 (delta 0)
+remote: Resolving deltas: 100% (9/9), completed with 1 local object.
+To https://github.com/annajdang/Lab-5.git
+   668a9ce..d015875  master -> master
+grc-mexico:338_02_L5_Dang ajdang$ 
